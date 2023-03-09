@@ -1,0 +1,17 @@
+1. proguard error :
+
+comment out - useProguard true
+instead use - shrinkResources true
+
+
+2. Error while creating meeting after setting up jisti meet :
+
+https://github.com/jitsi/jitsi-meet/issues/11546#issuecomment-1158785713
+
+
+3. Error after adding intl 0.18 :
+
+firebase_auth versions >= 4.2 are dependent on intl 0.17 so change intl version to 0.17.0
+
+4. Null check operator used on a null value :
+
